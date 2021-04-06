@@ -1,0 +1,38 @@
+.base-header-container{
+    display: flex;
+    height: 98px;
+    min-height: 98px;
+    align-items: center;
+    padding: 0 43px;
+    position: relative;
+    background: white;
+
+    .base-header-title{
+        display: flex;
+        flex-direction: column;
+        .base-header-title-text{
+            color: #022040;
+            font-family: MyriadPro;
+            font-weight: bold;
+            font-size: 28px;
+        }
+        .base-header-title-line{
+            height: 3px;
+            background: #FFFFFF;
+            width: 70%;
+        }
+    }
+    .base-header-user{
+        display: flex;
+        position: absolute;
+        right: 43px;
+        .base-header-user-info{
+            color: #022040;
+            font-family: MyriadPro;
+            margin-left: 20px;
+            .base-header-user-info-title{
+                font-size: 26px;
+            }
+        }
+    }
+}

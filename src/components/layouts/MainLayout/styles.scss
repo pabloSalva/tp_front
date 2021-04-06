@@ -1,0 +1,26 @@
+.desktop-main-layout-container {
+  height: 100%;
+  display: flex;
+  background-color: #fafafc;
+
+  overflow: hidden;
+
+  .right-layout-container {
+    flex: 1 1;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    background: #f9f9fc;
+    .right-layout-content {
+      padding: 45px 45px 0px 45px;
+      overflow: auto;
+      height: 100%;
+    }
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: center;
+}
